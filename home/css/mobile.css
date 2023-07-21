@@ -3,6 +3,15 @@ body{
 	background-color: black;
 }
 
+#toptitle{
+	color: white;
+	text-align: center;
+}
+
+#bigtitle{
+	display:none;
+}
+
 ul{
 	display: flex;
 }
@@ -13,7 +22,9 @@ ul nav ul li{
 	list-style: none;
 }
 
+
 #prenav{
+	padding-left: 0;
 	margin: none;
 	padding: none;
 }
@@ -75,7 +86,7 @@ ul nav ul li{
 .post{
 	background-color: white;
 	border: solid 1px grey;
-	height: 70vh;
+	height: flex;
 	list-style: none;
 	flex-direction: column;
 	padding: 20px;
@@ -188,12 +199,13 @@ a:visited, a:link {
  display: flex;
  list-style: inline;
  margin-right: 15px;
+ margin-bottom: 15px;
 }
 .leftnav li{
 	margin: 5px;
 }
 .rightnav{
- display: flex;
+ display: none;
  list-style: inline;
  margin-left: 15px;
 }

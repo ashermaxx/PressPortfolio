@@ -3,6 +3,10 @@ body{
 	background-color: black;
 }
 
+#toptitle{
+	display: none;
+}
+
 ul{
 	display: flex;
 }
@@ -87,7 +91,7 @@ ul nav ul li{
 }
 .post{
 	border: solid 1px grey;
-	height: 70vh;
+	height: flex;
 	list-style: none;
 	flex-direction: column;
 	padding: 20px;
