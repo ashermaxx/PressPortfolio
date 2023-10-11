@@ -74,6 +74,23 @@ ul nav ul li{
 	height: 100%;
 	object-fit: contain;
 }
+.lefticon_twitter{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: black;
+}
+.lefticon_twitter > img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.lefticon_twitter > a > img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
 .navtext{
 	font-size: 20px;
 	padding-left: 20px;
