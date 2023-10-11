@@ -96,6 +96,13 @@ ul nav ul li{
 	flex-direction: column;
 	padding: 20px;
 }
+.post_tweets{
+	height: flex;
+	list-style: none;
+	flex-direction: column;
+	padding: 20px;
+	background-color: black;
+}
 .toplineofpost{
 	background-color: lightgrey;
 	padding: 0px;
