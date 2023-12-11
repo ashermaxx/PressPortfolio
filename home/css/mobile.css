@@ -102,7 +102,6 @@ ul nav ul li{
 }
 .post{
 	background-color: white;
-	border: solid 1px grey;
 	height: flex;
 	list-style: none;
 	flex-direction: column;
@@ -174,6 +173,7 @@ ul nav ul li{
 	padding-left: 10px;
 }
 .links{
+	color:white;
 	list-style: none;
 }
 .linkpromo{
